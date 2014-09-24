@@ -1,6 +1,6 @@
 require 'chef/knife'
 
-module Foodcritic
+module Knife
   class FoodcriticRuleDelete < Chef::Knife
 
     banner "knife foodcritic rule delete"  

@@ -1,7 +1,7 @@
 require 'chef/knife'
 require 'chef/knife/cookbook_create'
 
-module Foodcritic
+module Knife
   class FoodcriticRuleCreate < Chef::Knife
 
     banner "knife foodcritic rule create"
@@ -16,8 +16,8 @@ module Foodcritic
     def run
 
       unless name_args.size == 1
-        puts "You need to name the rule (eg. FOURTH004)"
         show_usage
+        ui.fatal('You must specify a rule ID (eg. CUSTOM001)')
         exit 1
       end
 
