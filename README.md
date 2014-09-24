@@ -3,6 +3,8 @@ knife-foodcritic
 
 A knife plugin that generates boiler plate code for developing and testing custom foodcritic rules
 
+[![Build Status](https://travis-ci.org/elmundio87/knife-foodcritic.svg)](https://travis-ci.org/elmundio87/knife-foodcritic)
+
 Installation
 ------------
 
