@@ -17,7 +17,7 @@ module Foodcritic
     end
 
     def delete_foodcritic_rule(foodcritic_path, ruleID)
-      path = File.join(foodcritic_path, "lib","Fourth", "#{ruleID.upcase}.rb")
+      path = File.join(foodcritic_path, "rules", "#{ruleID.upcase}.rb")
 
       if File.exists? path
         puts "** Deleting rule file at #{path}"
