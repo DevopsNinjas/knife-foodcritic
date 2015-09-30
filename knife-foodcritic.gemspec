@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = KnifeFoodcritic::VERSION
   spec.authors       = ["Edmund Dipple"]
   spec.email         = ["elmundio1987@gmail.com"]
-  spec.homepage      = "http://www.devopsninjas.com"
+  spec.homepage      = "https://github.com/DevopsNinjas/knife-foodcritic"
   spec.license       = "GPL"
   spec.summary       = "A knife plugin for Chef that generates boiler plate code to help develop and test custom foodcritic rules"
   spec.description   = "Knife-Foodcritic is a plugin for Chef::Knife which automatically generates a new rule file (with an optional description), example spec files and a cookbook to test the rule against. It also generates the spec_helper if it doesn't already exist."
